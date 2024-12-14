@@ -1,79 +1,107 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<a name="readme-top"></a>
+<h1 align='center'> Exam Ace - Lucas Erkana 🚗 </h1>
 
-# Getting Started
+#  📗  Table of Contents
+- [ 📗  Table of Contents](#-table-of-contents)
+- [ Exam Ace - Lucas Erkana  🚗 ](#-about-project-)
+    - [ 🛠  Built With ](#-built-with-)
+        - [Tech Stack ](#tech-stack-)
+        - [Key Features ](#key-features-)
+    - [ 💻  Getting Started ](#-getting-started-)
+    - [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+        - [Prerequisites](#prerequisites)
+        - [Setup](#setup)
+        - [Install](#install)
+    - [ 👥  Authors ](#-authors-)
+    - [ 🔭  Future Features ](#-future-features-)
+    - [ 🤝  Contributing ](#-contributing-)
+    - [ ⭐️  Show your support ](#️-show-your-support-)
+    - [ 🙏  Acknowledgments ](#-acknowledgments-)
+    - [ 🙏  FAQ ](#-faq-)
+    - [ 📝  License ](#-license-)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# Exam Ace - Lucas Erkana  🚗 <a name="about-project"></a>
 
-## Step 1: Start the Metro Server
+**Exam Ace** is a mobile application designed to help driving students effectively prepare for their learner's license tests.  It uses advanced technology to analyze official study materials and create personalized study tools and practice quizzes.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+##  🛠  Built With <a name="built-with"></a>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Tech Stack <a name="tech-stack"></a>
 
-```bash
-# using npm
-npm start
+-   React Native (for cross-platform compatibility)
 
-# OR using Yarn
-yarn start
-```
+### Key Features <a name="key-features"></a>
 
-## Step 2: Start your Application
+-   **PDF Analysis:** Upload official driving handbooks (PDF format). Exam Ace will extract key information and images.
+-   **Study Presentation:**  Receive a concise study presentation with bullet points or flashcards covering core concepts.
+-   **Quiz Generation:**  Take a 90-question multiple-choice quiz with a 1-hour timer. Questions include:
+    -   Simple image recognition (road signs)
+    -   Moderate inference based on text passages
+-   **Scoring & Feedback:** Get your score and identify areas for improvement.
+-   **Freemium Model:**
+    -   Free users: Brief presentation and 10 sample questions.
+    -   \$9.99 in-app purchase: Unlocks full features for 2 weeks.
+-   **Clean and Modern UI:**  Emphasis on clear visuals for an optimal learning experience.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
+##  💻  Getting Started <a name="getting-started"></a>
 
-```bash
-# using npm
-npm run android
+### To get a local copy up and running, follow these steps. <a name="prerequisites"></a>
 
-# OR using Yarn
-yarn android
-```
+-   [ ] Make sure you have Node.js and npm (or yarn) installed on your machine.
+-   [ ] You'll need an Expo CLI account if you intend to run the app on a mobile device.
 
-### For iOS
+### Setup <a name="setup"></a>
 
-```bash
-# using npm
-npm run ios
+-   [ ] Clone this repository: `git clone https://github.com/your-username/Exam-Ace.git`
+-   [ ] Navigate to the project directory: `cd Exam-Ace`
 
-# OR using Yarn
-yarn ios
-```
+### Install <a name="install"></a>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+-   [ ] Install dependencies: `npm install` or `yarn install`
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+##  👥  Authors <a name="authors"></a>
 
-## Step 3: Modifying your App
+👤 **Lucas Erkana**
 
-Now that you have successfully run the app, let's modify it.
+-   GitHub: [@Lucask-Erkana](https://github.com/Lucask-Erkana)
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+##  🔭  Future Features <a name="future-features"></a>
 
-## Congratulations! :tada:
+-   [ ] Personalized study plans based on user performance.
+-   [ ] Advanced quiz customization options (e.g., focus on specific topics).
+-   [ ] Progress tracking and analytics.
+-   [ ] Integration with official DMV resources.
 
-You've successfully run and modified your React Native App. :partying_face:
+##  🤝  Contributing <a name="contributing"></a>
 
-### Now what?
+Contributions, issues, and feature requests are welcome!
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+Feel free to check the [issues page](https://github.com/your-username/Exam-Ace/issues).
 
-# Troubleshooting
+##  ⭐️  Show your support <a name="support"></a>
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+If you like this project, give it a ⭐️!
 
-# Learn More
+##  🙏  Acknowledgments <a name="acknowledgments"></a>
 
-To learn more about React Native, take a look at the following resources:
+-   [ ]  (Add any resources, libraries, or individuals you want to acknowledge)
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## 🙏  FAQ <a name="faq"></a>
+
+-   [ ] **How do I use the app?**
+    -   [ ] Download the app from the App Store or Google Play.
+    -   [ ] Upload your official driver's handbook in PDF format.
+    -   [ ] Choose to either study the generated presentation or take the practice quiz.
+    -   [ ] Review your score and feedback to identify areas for improvement.
+
+-   [ ] **What devices are supported?**
+    -   [ ] Exam Ace is built with React Native and is compatible with both iOS and Android devices.
+
+
+##  📝  License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
